@@ -1,0 +1,19 @@
+HTML
+<title><!--Muestra el nombre en la pestaña y define el documento-->
+<body><!--se va a mostrar el contenido-->
+<header><!---encabezado, para el logo o el título-->
+</nav><!--navegación, contiene los distintos links para llevar a las didtintas páginas de 
+                    nuestro sitio web, como el menu principal, puede estar dentro de otras etiquetas-->
+</main><!--contenido de la página, debe ir la información de la página-->
+<aside><!--enlaces externos o de ayuda-->
+<footer><!--pie de página-->
+
+
+CSS
+background-color: #048048; /*pone el color de fondo*/
+color: white; /*pone el color para las letras*/
+text-align: center; /*alinea los testos*/
+display: inline-flex; /*ayuda en que alines el texto como te acomode*/
+justify-content: center; /*permite que quede centrado horizont
+almente*/
+align-items: center; /*permite que quede centrado verticalmente*/
