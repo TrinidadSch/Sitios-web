@@ -26,7 +26,7 @@ db.connect((err) => {
 });
 
 
-app.get("/api/pacientes", function (req, res){
+app.get("/api/cerros_db", function (req, res){
     const sql = 'SELECT * FROM reporte';
     db.query(sql, (err, results) => {
         if (err) throw err;
@@ -52,8 +52,8 @@ app.get("/api/pacientes/tables/reporte", (req, res) => {
 app.use(express.static("public"));
 
 /*
-const categorias = "SELECT * FROM categoria";
-db.query(categorias,function(error,lista){
+const cerro = "SELECT * FROM cerro";
+db.query(cerro,function(error,lista){
     if(error){
         console.error('Error al conectar a la base de datos:', error);
         return;
